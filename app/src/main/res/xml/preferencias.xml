@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="op_server_gps"
+        android:title="Activación del rastreo satelital"
+        android:summary="Esta activación solo dara acceso de datos al servidor base Traccar">
+    </SwitchPreference>
+
+    <SwitchPreference
+        android:key="op_localización"
+        android:title="Activación del GPS en app Pegaso"
+        android:summary="Esta activación permite grabar datos de posición en el registro de usuarios">
+    </SwitchPreference>
+
+    <SwitchPreference
+        android:key="op_datos"
+        android:title="Activación de Datos en app Pegaso"
+        android:summary="Esta activación permite el envió de registros al servidor por medio del plan de datos">
+    </SwitchPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="causal_array">
+        <item>SIN CAUSAL</item>
+        <item>CONTADOR INTERNO</item>
+        <item>MEDIDOR RETIRADO</item>
+        <item>MEDIDOR EN MAL ESTADO</item>
+        <item>NO PERMITEN LEER EL MEDIDOR</item>
+        <item>MEDIDOR CON CANDADO</item>
+        <item>PROBLEMAS DE ORDEN PUBLICO</item>
+    </string-array>
+
+
+    <string-array name="meses_array">
+        <item>ENERO</item>
+        <item>FEBRERO</item>
+        <item>MARZO</item>
+        <item>ABRIL</item>
+        <item>MAYO</item>
+        <item>JUNIO</item>
+        <item>JULIO</item>
+        <item>AGOSTO</item>
+        <item>SEPTIEMBRE</item>
+        <item>OCTUBRE</item>
+        <item>NOVIEMBRE</item>
+        <item>DICIEMBRE</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

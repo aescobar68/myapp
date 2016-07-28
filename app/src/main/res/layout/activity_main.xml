@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0d8a7e"
+    android:gravity="center_horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/slogo"
+            android:adjustViewBounds="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtusuario"
+            android:hint="Nombre de Usuario"
+            android:textIsSelectable="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/highlighted_text_material_dark" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/txtclave"
+            android:hint="Contraseña"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/highlighted_text_material_dark" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ingresar"
+                android:id="@+id/entrar"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:enabled="true"
+                android:singleLine="false"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:backgroundTint="@android:color/holo_orange_dark" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="salir"
+                android:id="@+id/btn_salir"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:backgroundTint="@android:color/holo_green_dark" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IDHALCON"
+            android:id="@+id/textView36"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\@Copyright 2016 - www.soltic.com.co"
+            android:id="@+id/textView2"
+            android:textColor="#010101"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29" />
+
+    </LinearLayout>
+
+</LinearLayout>

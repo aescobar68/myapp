@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menuprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/street"
+    android:gravity="center_horizontal">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toma de Lecturas"
+        android:id="@+id/Lecturas"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:background="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Totalizar"
+        android:id="@+id/Totalizar"
+        android:drawableLeft="@android:drawable/ic_dialog_dialer"
+        android:background="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LECTURAS NO ENVIADAS"
+        android:drawableLeft="@android:drawable/ic_dialog_alert"
+        android:id="@+id/LectursNoEnvidas"
+        android:background="@android:color/holo_green_dark"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR FOTOGRAFIAS"
+        android:drawableLeft="@android:drawable/ic_menu_report_image"
+        android:paddingLeft="30dp"
+        android:id="@+id/EnviarrFotografias"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR ARCHIVOS"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:paddingLeft="30dp"
+        android:id="@+id/ActualizarArchivos"
+        android:background="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView28"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:id="@+id/MenuSalir"
+        android:drawableLeft="@android:drawable/ic_menu_set_as"
+        android:paddingLeft="30dp"
+        android:paddingEnd="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_img"
+        android:src="@drawable/logo_soltic"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Copyright 2016 - www.soltic.com.co"
+        android:id="@+id/textView3"
+        android:textColor="#010101"
+        android:gravity="center_horizontal" />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

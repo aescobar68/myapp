@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TotalizarActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/street2"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estadistica de registros tomados para determinar el balance de trabajo."
+            android:id="@+id/textView12"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registros leidos sin causal"
+            android:id="@+id/textView17"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="5"
+            android:id="@+id/EdtLeidas"
+            android:enabled="false"
+            android:visibility="visible"
+            android:layout_marginRight="5dp"
+            android:background="@color/highlighted_text_material_dark"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registros con causal"
+            android:id="@+id/textView18"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtConCausal"
+            android:ems="5"
+            android:enabled="false"
+            android:visibility="visible"
+            android:inputType="number"
+            android:layout_marginRight="5dp"
+            android:background="@color/highlighted_text_material_dark"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registros pendientes"
+            android:id="@+id/textView19"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtPorLeer"
+            android:ems="5"
+            android:enabled="false"
+            android:visibility="visible"
+            android:inputType="number"
+            android:layout_marginRight="5dp"
+            android:background="@color/highlighted_text_material_dark"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/textView20"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edttotal"
+            android:ems="5"
+            android:enabled="false"
+            android:visibility="visible"
+            android:layout_below="@+id/textView19"
+            android:inputType="number"
+            android:textSize="40sp"
+            android:layout_marginRight="5dp"
+            android:background="@color/highlighted_text_material_dark" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.05"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="salir"
+            android:drawableLeft="@android:drawable/ic_menu_set_as"
+            android:id="@+id/BtnCerrar"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:drawableLeft="@android:drawable/ic_menu_agenda"
+            android:id="@+id/BtnTotalizar"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="#ffffff"
+            android:elegantTextHeight="false"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingLeft="4dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:text="Por Ruta"
+            android:id="@+id/btnRuta"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingLeft="4dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.15"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\@Copyright 2016 - www.soltic.com.co"
+            android:id="@+id/textView13" />
+    </TableRow>
+</LinearLayout>

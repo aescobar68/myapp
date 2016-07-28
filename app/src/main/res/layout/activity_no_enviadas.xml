@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoEnviadasActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Modulo de sincronizacion con el servidor central para el repaso de lecturas no enviadas registradas en campo"
+        android:id="@+id/textView32"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Este Proceso puede demorar ..."
+        android:id="@+id/textView29"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procesar"
+            android:id="@+id/BtnProcesaNoenviadas"
+            android:drawableLeft="@android:drawable/ic_menu_agenda"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="salir"
+            android:id="@+id/BtnSalirNoEnviadas"
+            android:drawableLeft="@android:drawable/ic_menu_set_as"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="#ffffff"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+    </TableRow>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\@Copyright 2016 - www.soltic.com.co"
+        android:id="@+id/textView34"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+</LinearLayout>

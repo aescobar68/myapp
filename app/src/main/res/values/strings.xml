@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Applecturas</string>
+
+    <string-array name="observa_array">
+        <item>SIN OBSERVACION</item>
+        <item>CONTADOR INTERNO</item>
+        <item>MEDIDOR  INTERNO (CASA HABITADA CON SERVICIO)</item>
+        <item>MEDIDOR INTERNO (CASA DESHABITADA)</item>
+        <item>CASA EN CONSTRUCCIÓN SIN SERVICIO</item>
+        <item>CASA DEMOLIDA</item>
+        <item>CASETA YA NO EXISTE</item>
+        <item>SERVICIO SUSPENDIDO O DESCONECTADO</item>
+        <item>MEDIDOR DAÑADO(QUEMADO,DEFECTUOSO,TROCADO, GIRA HACIA ATRÁS)</item>
+        <item>CONTADOR ILEGIBLE (MEDIDOR REGISTRA PERO NO SE PUEDE LEER)</item>
+        <item>NO EXISTE MEDIDOR. (CASA HABITADA CON SERVICIO)</item>
+        <item>CASA EN CONSTRUCCION CON SERVICIO</item>
+        <item>HABITANTE IMPIDE LA TOMA LECTURA</item>
+        <item>POSIBLE FRAUDE</item>
+        <item>MEDIDOR NO CORRESPONDE AL TIPO DE ENERGIA</item>
+        <item>ACCESO IMPOSIBLE (MALAS CONDICIONES POR EL CLIMA)</item>
+        <item>CASA NO HABITADA SERVICIO DESCONECTADO</item>
+        <item>MEDIDOR SIN SELLOS</item>
+        <item>POSIBLE RECONEXIÓN NO AUTORIZADA</item>
+        <item>BAJO CONSUMO NO JUSTIFICADO</item>
+        <item>CASA VECINA NO LEGALIZADA</item>
+        <item>MEDIDOR ACOSTADO</item>
+        <item>MEDIDOR RECIEN INSTALADO</item>
+        <item>GIRO COMPLETO DEL REGISTRADOR</item>
+        <item>PERRO BRAVO IMPIDE LA TOMA DE LECTURA</item>
+        <item>MEDIDOR PATRON</item>
+        <item>MEDIDOR DIFERENTE AL REGISTRADO EN LIBRO</item>
+        <item>ALTO CONSUMO POR VERIFICAR</item>
+        <item>LUMINARIA ENCENDIDA DE DIA</item>
+
+    </string-array>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_favorite">Marcar Favorito</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_info">About</string>
+
+    <string name="titulo_act">Seleccione el periodo de facturación que corresponde
+        al mes y año de lecturas, este parametro corresponde a los libros de lectura
+        correspondientes a esta maquina.
+
+    </string>
+
+    <string-array name="buscar_array">
+        <item>MATRICULA</item>
+        <item>RUTA</item>
+    </string-array>
+
+
+</resources>
